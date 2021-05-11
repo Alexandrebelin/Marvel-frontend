@@ -1,0 +1,260 @@
+body {
+  background-color: #151515;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1280px;
+}
+
+/* Header */
+
+header {
+  height: 70px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.diplayheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.displayButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 200px;
+}
+
+.logoLink {
+  text-decoration: none;
+  color: white;
+}
+
+.logoLink img {
+  width: 100px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.diplayLeftButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 300px;
+}
+
+.logo {
+  margin-left: 45px;
+  font-size: 22px;
+}
+
+.linkto {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+.linkto:hover {
+  background-size: 100% 100%;
+}
+
+.searchContainer {
+  position: relative;
+}
+
+.searchInput {
+  width: 750px;
+  padding-left: 40px;
+  background-color: #3b3b3b;
+  border-radius: 20px;
+  height: 35px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.searchInput:hover {
+  background-color: white;
+  transition-duration: 0.5s;
+}
+
+.buttonLogout {
+  cursor: pointer;
+}
+
+/* Loader */
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Home */
+
+.dipsplayHome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.homeContainer {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 1280px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.heroContainer > img {
+  width: 1280px;
+  height: 600px;
+  object-fit: cover;
+}
+
+.buttonOffset {
+  border: none;
+  background-color: #151515;
+  margin-bottom: 50px;
+  padding: 10px;
+  width: 120px;
+  height: 50px;
+  color: white;
+  -webkit-box-shadow: 0px 0px 26px -15px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 26px -15px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 26px -15px rgba(255, 255, 255, 1);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.buttonDipslay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Cards */
+
+.cardsChar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  height: 350px;
+  width: 200px;
+  border-radius: 5px;
+  padding: 30px;
+  margin: 30px;
+  color: white;
+  -webkit-box-shadow: 0px 0px 26px -15px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 26px -15px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 26px -15px rgba(255, 255, 255, 1);
+  transition: all 0.3s ease-in-out;
+}
+.cardsChar img {
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+.cardsChar span {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.cardsChar:hover {
+  transform: scale(1.01);
+}
+
+.heart-icon {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  font-size: 24px;
+  z-index: 2;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Comics per characters */
+
+.comic-per-character-container {
+  color: white;
+  margin-top: 150px;
+}
+
+/* My collection */
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.wrapMyCollection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* LogIn SignUp */
+
+.loginContainer {
+  margin: 0 auto;
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.signinForm {
+  display: flex;
+  width: 300px;
+  margin: auto;
+  align-items: center;
+  flex-direction: column;
+  background-color: #3b3b3b;
+  border-radius: 10px;
+}
+
+.signinForm input {
+  border: none;
+  width: 275px;
+  border-bottom: 1px solid #fcced3;
+  height: 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  outline: none;
+  border-radius: 10px;
+}
+.signinForm > input::placeholder {
+  color: black;
+  font-size: 16px;
+}
+
+.submit {
+  cursor: pointer;
+  color: black;
+  height: 45px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+
+  font-size: 16px;
+  margin-top: 20px;
+}
