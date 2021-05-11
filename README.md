@@ -1,7 +1,7 @@
 # Marvel - Frontend
 
 <div align="center">
-<img src="./src/assets/img" alt="Marvel logo" width="200" />
+<img src="./src/assets/img/logo.png" alt="Marvel logo" width="200" />
 
 This React JS project uses a Marvel API to render a list of characters and comics. One can create a user account and save characters and comics in their own list.
 
